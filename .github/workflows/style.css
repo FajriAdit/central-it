@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.logo img {
+    width: 60px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    padding: 12px;
+    background-color: white;
+    border-bottom: 2px solid rgb(0, 174, 255);
+    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.35);
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: grey;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+button {
+    border: none;
+    padding: 12px 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sign {
+    background-color: rgb(0, 174, 255);
+    color: white;
+    border-radius: 15px;
+    transition: all .3s ease;
+}
+
+.sign:hover {
+    /* background-color: orange; */
+    opacity: .7;
+}
+
+.login {
+    color: rgb(0, 174, 255);
+    background: none;
+    border-radius: 15px;
+    transition: all .3s ease;
+}
+
+.login:hover {
+    opacity: .7;
+    /* color: orange; */
+}
+
+/* main content */
+main #toglehome{
+    padding-top: 100px;
+}
+main{
+    width: 80%;
+    margin: auto; 
+}
+main h1{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 20px;
+}
+main p{
+    text-align: justify;
+    margin: 0px 12px;
+}
+main .pemandangan{
+    margin-top: 30px;
+}
+main .pemandangan img{
+    border-radius: 15px;
+    width: 75%;
+    height: 400px;
+    box-shadow: 10px 10px 14px 1px rgba(0,0,0,0.42);
+-webkit-box-shadow: 10px 10px 14px 1px rgba(0,0,0,0.42);
+-moz-box-shadow: 10px 10px 14px 1px rgba(0,0,0,0.42);
+}
+main .pemandangan{
+    display: flex;
+}
+main .pemandangan .manusia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .pemandangan .manusia1{
+    display: flex;
+    margin: 25px;
+}
+main .pemandangan .manusia1 .deskripsi p{
+    margin: 0;
+    font-size: 10px;
+}
+main .pemandangan .manusia1 .deskripsi{
+    padding-left: 10px;
+}
+main .pemandangan .manusia1 img{
+    background-size: cover;
+    width: 50px;
+    margin: 0px;
+    height: 50px;
+    box-shadow: none;
+}
+main .card{
+    margin-top: 30px;
+    background-color: rgb(4, 0, 255);
+    padding: 30px;
+    border-radius: 15px;
+}
+main .card .cardcontent{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+main .card .cardcontent .cardtitle{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+main .pemisahcontent{
+    color: white;
+}
+
+main .card .cardcontent p{
+    width: 60%;
+    /* padding: 20px; */
+    text-align: left;
+    margin: 0px;
+}
+main .card .cardcontent h3 span{
+    color: white;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(0, 174, 255);
+    padding: 20px;
+    color: white;
+    margin-top: 100px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .content {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .more-content {
+    display: none;
+    margin-top: 15px;
+  }
+  
+  .see-more {
+    color: #007bff;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .see-more:hover {
+    text-decoration: underline;
+  }
+  
